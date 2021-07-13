@@ -1,0 +1,34 @@
+{
+    "name": "feiron/laragql",
+    "description": "GraphQL for Laravel",
+    "type": "library",
+    "require": {
+        "laravel/laravel": ">=8.0",
+        "php": ">=7.2.1"
+    },
+    "require-dev": {
+        "laravel/laravel": ">=8.0",
+        "php": ">=7.2.1"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Lucas",
+            "email": "yu0307@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "feiron\\laragql\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "feiron\\laragql\\laraGQLServiceProvider"
+            ]
+        }
+    }
+}
